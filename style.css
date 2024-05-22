@@ -6,11 +6,20 @@
     grid-template-areas:
       "Name Name"
       "CLICK BUY";
+      height: 100vh;
   }
   
-  .Name { grid-area: Name; }
+  .Name { grid-area: Name; 
+color: red;
+text-align: center;
+}
   
-  .CLICK { grid-area: CLICK; }
+  .CLICK { grid-area: CLICK; 
+text-align: center;
+
+}
   
-  .BUY { grid-area: BUY; }
+  .BUY { grid-area: BUY;
+text-align: center;
+}
   
