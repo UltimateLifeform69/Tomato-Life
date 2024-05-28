@@ -16,10 +16,18 @@ text-align: center;
   
   .CLICK { grid-area: CLICK; 
 text-align: center;
-
+color: yellow;
 }
   
   .BUY { grid-area: BUY;
 text-align: center;
+color: yellow;
 }
+
+body {
+    background-image: url("Graphics/tomatofield.jpeg");
+  }
   
+  button {
+    background-color: transparent;
+  }
