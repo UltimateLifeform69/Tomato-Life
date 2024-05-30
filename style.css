@@ -10,13 +10,13 @@
   }
   
   .Name { grid-area: Name; 
-color: red;
+color: rgb(255, 27, 27);
 text-align: center;
 }
   
   .CLICK { grid-area: CLICK; 
 text-align: center;
-color: yellow;
+color: rgb(255, 27, 27);
 }
   
   .BUY { grid-area: BUY;
@@ -26,9 +26,15 @@ color: yellow;
 
 body {
     background-image: url("Graphics/tomatofield.jpeg");
+    background-size: cover;
   }
   
   button {
     background-color: transparent;
-    color: yellow;
+    color: rgb(255, 27, 27);
+  }
+
+  .disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
   }
