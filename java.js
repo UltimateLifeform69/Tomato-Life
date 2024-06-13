@@ -1,4 +1,4 @@
-let points = 100000
+let points = 0
 let PointsTracker = document.getElementById("pointsTracker")
 let fist = 0
 let squasherAmount = document.getElementById("squasherAmount")
@@ -18,7 +18,7 @@ let ketcost = document.getElementById("ketcost")
 let bgmusic= new Howl({
     src: ['Sounds/spinningMonkeys.mp3'],
     autoplay: true,
-    Volume: .10,
+    volume: .10,
     loop: true,
 })
 let Splat= new Howl({
@@ -29,22 +29,22 @@ let Splat= new Howl({
 let Punch= new Howl({
     src: ['Sounds/Punch.mp3'],
     autoplay: false,
-    Volume: .15,
+    volume: .15,
 })
 let Squeeze= new Howl({
     src: ['Sounds/Ketup.mp3'],
     autoplay: false,
-    Volume: .15,
+    volume: .15,
 })
 let Pipe= new Howl({
     src: ['Sounds/Qpipe.mp3'],
     autoplay: false,
-    Volume: .01,
+    volume: .15,
 })
 let Zelda= new Howl({
     src: ['Sounds/Zelda.mp3'],
     autoplay: false,
-    Volume: .30,
+    volume: .50,
 })
 
 
